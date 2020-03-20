@@ -1,7 +1,7 @@
 {
   "core": {
     "workingDir": ".reg",
-    "actualDir": "screenshots",
+    "actualDir": "__screenshots__",
     "thresholdRate": 0,
     "addIgnore": true,
     "ximgdiff": {
@@ -12,6 +12,13 @@
     "reg-keygen-git-hash-plugin": true,
     "reg-notify-github-plugin": {
       "clientId": "MzKxMDOxNDY21S8uyS+qTMrPz9YtSk3XLS7NLNEtTsxLScqv0Dc3MTIzMTbQT68sBSIA"
+    },
+    "reg-publish-sftp-plugin": {
+      "host": "ssh.lolipop.jp",
+      "username": "pya.jp-reg-suit-sandbox",
+      "port": 2222,
+      "pathPrefix": "web",
+      "reportUrlPrefix": "https://pya-reg-suit-sandbox.ssl-lolipop.jp/"
     }
   }
 }

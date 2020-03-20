@@ -104,4 +104,4 @@ dist
 .tern-port
 
 .reg
-screenshots/
+__screenshots__/
