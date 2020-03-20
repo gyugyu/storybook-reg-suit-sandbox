@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 12.x
     - run: npm ci
-    - run: npm run test-visual
+    - run: npm run test-visual -- --verbose
       env:
         CI: true
         SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
