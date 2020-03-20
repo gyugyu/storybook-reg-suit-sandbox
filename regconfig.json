@@ -15,10 +15,10 @@
     },
     "reg-publish-sftp-plugin": {
       "host": "ssh.lolipop.jp",
-      "username": "pya.jp-reg-suit-sandbox",
       "port": 2222,
-      "pathPrefix": "web",
-      "reportUrlPrefix": "https://pya-reg-suit-sandbox.ssl-lolipop.jp/"
+      "username": "pya.jp-reg-suit-sandbox",
+      "reportUrlPrefix": "https://pya-reg-suit-sandbox.ssl-lolipop.jp/",
+      "pathPrefix": "web"
     }
   }
 }

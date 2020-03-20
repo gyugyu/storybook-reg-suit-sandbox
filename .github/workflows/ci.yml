@@ -18,6 +18,7 @@ jobs:
       with:
         node-version: 12.x
     - run: npm ci
-    - run: npm run storycap
+    - run: npm run test-visual
       env:
         CI: true
+        SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
