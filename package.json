@@ -5,6 +5,9 @@
     "@babel/core": "^7.8.7",
     "@storybook/html": "^5.3.17",
     "babel-loader": "^8.0.6",
+    "reg-keygen-git-hash-plugin": "^0.8.5",
+    "reg-notify-github-plugin": "^0.8.5",
+    "reg-suit": "^0.10.0",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2"
   },
