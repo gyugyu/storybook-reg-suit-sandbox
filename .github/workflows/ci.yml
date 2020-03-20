@@ -9,8 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: workaround for detached HEAD
-      run: git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
+      with:
+        fetch-depth: 0
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
