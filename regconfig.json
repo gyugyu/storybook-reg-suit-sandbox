@@ -16,8 +16,8 @@
     "reg-publish-sftp-plugin": {
       "host": "ssh.lolipop.jp",
       "port": 2222,
-      "username": "pya.jp-reg-suit-sandbox",
-      "reportUrlPrefix": "https://pya-reg-suit-sandbox.ssl-lolipop.jp/",
+      "username": "parasite.jp-reg-suit-demo",
+      "reportUrlPrefix": "https://parasite-reg-suit-demo.ssl-lolipop.jp/",
       "pathPrefix": "web"
     }
   }
